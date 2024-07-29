@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <FrameLayout
+      android:id="@+id/fram"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:id="@+id/toolbare"
+        android:background="#E6B728"/>
+
+    <ImageView
+        android:id="@+id/btnNavi"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_baseline_menu_24" />
+
+    <ImageView
+        android:id="@+id/btnserch"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="365dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/hungry" />
+
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="664dp"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-1668156255188050/5027096471"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </com.google.android.gms.ads.AdView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:textColor="@color/black"
+        android:stateListAnimator="@null"
+        android:layout_marginTop="239dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="@drawable/btn_color"
+        android:drawableTop="@drawable/rice2"
+        android:text="@string/rice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbare" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:stateListAnimator="@null"
+        android:textColor="@color/black"
+        android:layout_marginTop="239dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="@drawable/btn_color"
+        android:drawableTop="@drawable/jjiga"
+        android:text="@string/ggok"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbare" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="278dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="239dp"
+        android:stateListAnimator="@null"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="@drawable/btn_color"
+        android:drawableTop="@drawable/noodl"
+        android:text="@string/noodle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbare" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="379dp"
+        android:textStyle="bold"
+        android:stateListAnimator="@null"
+        android:textSize="25sp"
+        android:background="@drawable/btn_color"
+        android:drawableTop="@drawable/chicke"
+        android:text="@string/meal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbare" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="379dp"
+        android:stateListAnimator="@null"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="@drawable/btn_color"
+        android:drawableTop="@drawable/icecrem"
+        android:text="@string/desert"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbare" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="278dp"
+        android:textColor="@color/black"
+        android:stateListAnimator="@null"
+        android:layout_marginTop="379dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="@drawable/btn_color"
+        android:drawableTop="@drawable/ramdem"
+        android:text="@string/randm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbare" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="453dp"
+        android:layout_height="207dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbare"
+        app:srcCompat="@drawable/munubar" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn7"
+        android:layout_width="210dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="108dp"
+        android:stateListAnimator="@null"
+        android:layout_marginTop="519dp"
+        android:background="@drawable/btn_color"
+        android:drawableStart="@drawable/qestinmark"
+        android:text="@string/reserch"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbare" />
+
+
+  </FrameLayout>
+
+  <com.google.android.material.navigation.NavigationView
+      android:id="@+id/naviView"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_gravity="start"
+      app:menu="@menu/navi_menu"/>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

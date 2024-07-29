@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/korea"
+            android:icon="@drawable/bibbb"
+            android:textStyle="bold"
+            android:title="@string/koreanfood"/>
+
+        <item android:id="@+id/chinaaaa"
+            android:icon="@drawable/ricenoodle"
+            android:textStyle="bold"
+            android:title="@string/chima"/>
+
+        <item android:id="@+id/japenaaaa"
+            android:icon="@drawable/sushi"
+            android:textStyle="bold"
+            android:title="@string/jappam"/>
+
+        <item android:id="@+id/eufood"
+            android:icon="@drawable/hambug"
+            android:textStyle="bold"
+            android:title="@string/europ"/>
+
+        <item android:id="@+id/diertaaaa"
+            android:icon="@drawable/chikengasemsal"
+            android:textStyle="bold"
+            android:title="@string/dieat"/>
+
+        <item android:id="@+id/asianfoodaaaa"
+            android:icon="@drawable/spring"
+            android:textStyle="bold"
+            android:title="@string/asian"/>
+
+        <item android:id="@+id/ranchienaaaa"
+            android:icon="@drawable/fridchiken"
+            android:textStyle="bold"
+            android:title="@string/chikenbrand"/>
+
+        <item android:id="@+id/pizzaaaaa"
+            android:icon="@drawable/pizz"
+            android:textStyle="bold"
+            android:title="@string/pizzarandem"/>
+
+        <item android:id="@+id/veganaaaaa"
+            android:icon="@drawable/began"
+            android:textStyle="bold"
+            android:title="@string/vegen"/>
+
+
+
+
+
+    </group>
+
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.lunchchoice">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/mystery"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mystery"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LunchChoice"
+        tools:targetApi="31">
+        <activity
+            android:name=".Box"
+            android:exported="false" />
+        <activity
+            android:name=".West"
+            android:exported="false" />
+        <activity
+            android:name=".Ran"
+            android:exported="false" />
+        <activity
+            android:name=".Deasert"
+            android:exported="false" />
+        <activity
+            android:name=".Beadal"
+            android:exported="false" />
+        <activity
+            android:name=".Tang"
+            android:exported="false" />
+        <activity
+            android:name=".Noobles"
+            android:exported="false" />
+        <activity
+            android:name=".Recicler"
+            android:exported="false" />
+        <activity
+            android:name=".MainDisplay"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1668156255188050~8191325212" />
+    </application>
+
+</manifest>
